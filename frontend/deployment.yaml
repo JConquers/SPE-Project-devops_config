@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: docker.io/jinesh14/spe-project-fe:latest
+        image: docker.io/jinesh14/spe-project-fe:62575c3
         ports:
         - containerPort: 3000
         resources:

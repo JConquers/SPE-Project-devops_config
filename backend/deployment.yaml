@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: docker.io/jinesh14/spe-project-be:latest   # Jenkins will update tag at runtime
+        image: docker.io/jinesh14/spe-project-be:37203c8   # Jenkins will update tag at runtime
         ports:
         - containerPort: 8000
         resources:
